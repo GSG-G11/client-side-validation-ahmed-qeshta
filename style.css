@@ -14,7 +14,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  background: linear-gradient(to bottom right, #25e6ff, #25ff42);
   color: #333;
   font-family: 'Ubuntu', sans-serif;
   font-size: 1.2rem;
@@ -66,12 +66,12 @@ button {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 40%;
-  background-color: #9c9c9c;
-  color: #fff;
+  width: 30%;
+  background: #fff;
+  color: #333;
   border-radius: 5px;
   box-shadow: 1px 1px 15px 5px #afafaf27;
-  padding: 10px;
+  padding: 20px 10px;
 }
 
 .register__form > label {
@@ -79,6 +79,7 @@ button {
   flex-direction: column;
   width: 80%;
   margin: 15px auto;
+  text-align: start;
 }
 
 .register__form > label > input {
@@ -86,8 +87,12 @@ button {
   color: #9c9c9c;
   border-radius: 5px;
   box-shadow: 1px 1px 8px 5px #aaaaaa50;
-  height: 30px;
-  margin: 0;
+  height: 40px;
+  margin: 10px 0;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .register__form > button {
